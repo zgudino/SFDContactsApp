@@ -1,0 +1,26 @@
+@import url(nativescript-theme-core/css/core.dark.css);
+page {
+  background-color: white; }
+
+.action-bar {
+  margin-top: 20;
+  padding-bottom: 8; }
+
+.bold {
+  font-size: 28;
+  font-weight: 800; }
+
+.list {
+  height: 100%;
+  margin-left: 22; }
+
+.list-item {
+  margin: 12; }
+
+.empty {
+  opacity: 0;
+  color: #ddd;
+  font-size: 22;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: center; }

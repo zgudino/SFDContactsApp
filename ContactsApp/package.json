@@ -1,0 +1,27 @@
+{
+  "name": "contacts-app",
+  "description": "SFDContactsApp Demo",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "repository": "<fill-your-repository-here>",
+  "version": "0.1.0",
+  "nativescript": {
+    "id": "org.nativescript.nativescriptvuewebpack",
+    "tns-android": {
+      "version": "3.2.0"
+    },
+    "tns-ios": {
+      "version": "3.2.0"
+    }
+  },
+  "dependencies": {
+    "nativescript-theme-core": "~1.0.2",
+    "nativescript-vue": "^0.1.6",
+    "tns-core-modules": "~3.2.0"
+  },
+  "devDependencies": {
+    "babel-traverse": "6.26.0",
+    "babel-types": "6.26.0",
+    "babylon": "6.18.0",
+    "lazy": "1.0.11"
+  }
+}

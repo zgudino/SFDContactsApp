@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      "nativescript-vue@0.1.6",
+      "/Users/zgudino/Projects/flosspa-sfd-demo/ContactsApp/ContactsApp"
+    ]
+  ],
+  "_from": "nativescript-vue@0.1.6",
+  "_id": "nativescript-vue@0.1.6",
+  "_inBundle": false,
+  "_integrity": "sha512-O8zHCk+PsEt8lj8saZD1DDmeBmg+atYZzritaHmEm/yhTY1+7t/Y3mLlu3nB71lYDtVUWjaCWIfK+oN/m2x7Sw==",
+  "_location": "/nativescript-vue",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "nativescript-vue@0.1.6",
+    "name": "nativescript-vue",
+    "escapedName": "nativescript-vue",
+    "rawSpec": "0.1.6",
+    "saveSpec": null,
+    "fetchSpec": "0.1.6"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-vue/-/nativescript-vue-0.1.6.tgz",
+  "_spec": "0.1.6",
+  "_where": "/Users/zgudino/Projects/flosspa-sfd-demo/ContactsApp/ContactsApp",
+  "author": {
+    "name": "rigor789"
+  },
+  "bugs": {
+    "url": "https://github.com/rigor789/nativescript-vue/issues"
+  },
+  "dependencies": {
+    "vue": "2.3.0"
+  },
+  "description": "NativeScript and Vue integration",
+  "devDependencies": {
+    "babel-jest": "^19.0.0",
+    "babel-preset-env": "^1.4.0",
+    "jest": "^19.0.2",
+    "jest-junit": "^1.5.1",
+    "prettier": "^1.6.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-alias": "^1.3.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-flow-no-whitespace": "^1.0.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-resolve-aliases": "^0.2.0",
+    "rollup-watch": "^3.2.2",
+    "tns-core-modules": "^3.0.0"
+  },
+  "homepage": "https://github.com/rigor789/nativescript-vue#readme",
+  "jest": {
+    "verbose": true,
+    "modulePaths": [
+      "<rootDir>/platform/nativescript"
+    ],
+    "collectCoverage": true,
+    "testResultsProcessor": "./node_modules/jest-junit"
+  },
+  "keywords": [
+    "vuejs",
+    "nativescript",
+    "integration"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "{{platform,__test__}/**/*.js,samples/app/*.js}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "main": "dist/index.js",
+  "name": "nativescript-vue",
+  "nativescript": {
+    "platforms": {
+      "android": "3.0.0",
+      "ios": "3.0.0"
+    },
+    "plugin": {
+      "vue": "true",
+      "pan": "false",
+      "core3": "true",
+      "category": "Developer"
+    }
+  },
+  "peerDependencies": {
+    "tns-core-modules": "^3.0.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rigor789/nativescript-vue.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w --o samples/app/nativescript-vue.js",
+    "precommit": "lint-staged",
+    "tdd": "jest --watch",
+    "test": "jest"
+  },
+  "version": "0.1.6"
+}
